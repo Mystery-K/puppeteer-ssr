@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-ssr",
+  "version": "1.0.0",
+  "description": "puppeteer-ssr",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mystery-K/puppeteer-ssr.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "ssr"
+  ],
+  "author": "kongwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mystery-K/puppeteer-ssr/issues"
+  },
+  "homepage": "https://github.com/Mystery-K/puppeteer-ssr#readme",
+  "dependencies": {
+    "puppeteer": "^1.2.0"
+  }
+}
