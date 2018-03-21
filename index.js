@@ -9,6 +9,12 @@ const sleep = time => {
   });
 };
 
+/**
+ * 
+ * @param {String} _url 
+ * @param {String} name 
+ * @param {String} dist 
+ */
 const generateHTML = async (_url, name, dist) => {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -22,8 +28,9 @@ const generateHTML = async (_url, name, dist) => {
       path.resolve(dist_dir, `${name || "index"}.html`),
       html
     );
+    return true;
   } catch (e) {
-    console.log(e);
+    return false;
   } finally {
     await browser.close();
   }

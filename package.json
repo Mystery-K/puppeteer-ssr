@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-ssr",
+  "name": "ssr-puppeteer",
   "version": "1.0.0",
   "description": "puppeteer-ssr",
   "main": "index.js",
